@@ -19,7 +19,7 @@ A repository to learn about...
 
 To build the image:
 
-    docker image build -t ngx .
+    docker image build -t ngx:ngx_helloworld .
 
 To run the image:
 
@@ -28,5 +28,10 @@ To run the image:
 Try access in your browser:
 
     localhost:8080
+
+If you want registry this at Docker Hub:
+
+    docker login
+    docker push ngx:ngx_helloworld
 
 Enjoy!
